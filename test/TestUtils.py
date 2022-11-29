@@ -9,7 +9,7 @@ class TestUtils:
 
     @classmethod
     def yakshaAssert(self, test_name, result, test_type):
-        ref = open("./custom.ih", "r")
+        ref = open("../custom.ih", "r")
         customData = ref.read()
         ref.close()
         #print(customData)
